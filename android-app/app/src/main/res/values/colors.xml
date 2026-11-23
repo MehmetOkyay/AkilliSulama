@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="arkaplan_koyu">#121212</color>
+    <color name="kutu_koyu">#1E1E1E</color>
+    <color name="yazi_beyaz">#E0E0E0</color>
+    <color name="buton_mavi">#3498DB</color>
+    <color name="buton_kirmizi">#E74C3C</color>
+</resources>

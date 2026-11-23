@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#080D0A"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌱 SULAMA MERKEZİ"
+            android:textAlignment="center"
+            android:textColor="#2ED573"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111D16"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/textSayac"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bağlanıyor..."
+                android:textAlignment="center"
+                android:textColor="#2ED573"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#111D16"
+            android:orientation="vertical"
+            android:padding="20dp"
+            android:elevation="8dp"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BEKLEME SÜRESİ (DAKİKA)"
+                android:textColor="#A4B0BE"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editBekleme"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="#080D0A"
+                android:textColor="#FFFFFF"
+                android:paddingStart="16dp"
+                android:inputType="number"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/textMevcutBekleme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mevcut: -"
+                android:textColor="#A4B0BE"
+                android:textSize="12sp"
+                android:layout_marginBottom="16dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SULAMA SÜRESİ (DAKİKA)"
+                android:textColor="#A4B0BE"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/editSulama"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="8dp"
+                android:background="#080D0A"
+                android:textColor="#FFFFFF"
+                android:paddingStart="16dp"
+                android:inputType="number"
+                android:layout_marginBottom="4dp"/>
+
+            <TextView
+                android:id="@+id/textMevcutSulama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mevcut: -"
+                android:textColor="#A4B0BE"
+                android:textSize="12sp"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/btnKaydet"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:backgroundTint="#1E90FF"
+                android:text="💾 AYARLARI KAYDET"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSula"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#2ED573"
+            android:text="💦 SİSTEMİ BAŞLAT"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/btnDurdur"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:backgroundTint="#FF4757"
+            android:text="🛑 ACİL DURDUR"
+            android:textColor="#FFFFFF"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>
